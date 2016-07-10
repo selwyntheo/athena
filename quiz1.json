@@ -1,0 +1,71 @@
+{
+    "quiz": {
+        "id": 1,
+        "name": "Ratio, Proportions & Variations",
+        "description": "Ratio, Proportion & Variations"
+    },
+    "questions": [{
+        "Id": 1010,
+        "Name": "On Friday, 240 adults and children attended a movie. The ratio of adults to children was 5 to 1. How many children attended the movie", 
+        "QuestionTypeId": 1,
+        "Options": [
+            { "Id": 11055, "QuestionId": 1010, 
+            "Name": "40", "IsAnswer": true },
+            { "Id": 11056, "QuestionId": 1010, 
+            "Name": "48", "IsAnswer": false },
+            { "Id": 11057, "QuestionId": 1010, 
+            "Name": "192", "IsAnswer": false },
+            { "Id": 11058, "QuestionId": 1010, 
+            "Name": "200", "IsAnswer": false }],
+        "QuestionType": { "Id": 1, 
+        "Name": "Multiple Choice", "IsActive": true }
+    },
+    {
+        "Id": 1011,
+        "Name": "On Thursday, 420 adults and children attended a movie. The number of children was 33 percent more than the adults. How many children attended the movie", 
+        "QuestionTypeId": 1,
+        "Options": [
+            { "Id": 11059, "QuestionId": 1011, 
+            "Name": "220", "IsAnswer": false },
+            { "Id": 11060, "QuestionId": 1011, 
+            "Name": "140", "IsAnswer": false },
+            { "Id": 11061, "QuestionId": 1011, 
+            "Name": "240", "IsAnswer": true },
+            { "Id": 11062, "QuestionId": 1011, 
+            "Name": "180", "IsAnswer": false }],
+        "QuestionType": { "Id": 1, "Name": 
+        "Multiple Choice", "IsActive": true }
+    },
+    {
+        "Id": 1012,
+        "Name": "On Friday, 1800 adults and children attended a movie. There were 20 percent less children than adults. How many children attended the movie", 
+        "QuestionTypeId": 1,
+        "Options": [
+            { "Id": 11063, "QuestionId": 1012, 
+            "Name": "900", "IsAnswer": false },
+            { "Id": 11064, "QuestionId": 1012, 
+            "Name": "1200", "IsAnswer": false },
+            { "Id": 11065, "QuestionId": 1012, 
+            "Name": "1000", "IsAnswer": false },
+            { "Id": 11066, "QuestionId": 1012, 
+            "Name": "None of the above", "IsAnswer": true }],
+        "QuestionType": { "Id": 1, "Name": 
+        "Multiple Choice", "IsActive": true }
+    },
+    {
+        "Id": 1013,
+        "Name": "A grocery store buys its goods from a wholesaler. For a particular item, the store usually charges its cost from the wholesaler plus 75 %. During a sale, the store charged the wholesale cost plus 15%. If the sale price of the item was $299, what is the usual price", 
+        "QuestionTypeId": 1,
+        "Options": [
+            { "Id": 11067, "QuestionId": 1013, 
+            "Name": "$359", "IsAnswer": false },
+            { "Id": 11068, "QuestionId": 1013, 
+            "Name": "$455", "IsAnswer": true },
+            { "Id": 11069, "QuestionId": 1013, 
+            "Name": "$479", "IsAnswer": false },
+            { "Id": 11070, "QuestionId": 1013, 
+            "Name": "$524", "IsAnswer": false }],
+        "QuestionType": { "Id": 1, "Name": 
+        "Multiple Choice", "IsActive": true }
+    }]
+}
