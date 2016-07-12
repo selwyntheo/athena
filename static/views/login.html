@@ -1,0 +1,26 @@
+<div class="container">
+        <div class="card card-container">
+            <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
+            <p id="profile-name" class="profile-name-card"></p>
+            <form class="form-signin" role="form" name="loginForm" method="POST" action="/loginpost" enctype="multipart/form-data">
+                <span id="reauth-email" class="reauth-email"></span>
+                <input  ng-model="user.login" type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+                <div ng-messages="user.login.$error" role="alert">
+                            <div ng-message="required" class="my-message">Username must be entered.</div>
+                          </div>
+                <input ng-model="user.password" type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                <div ng-messages="user.password.$error" role="alert">
+                            <div ng-message="required" class="my-message">Password must be entered.</div>
+                          </div>
+                <div id="remember" class="checkbox">
+                    <label>
+                        <input type="checkbox" value="remember-me"> Remember me
+                    </label>
+                </div>
+                <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit" ng-disabled="loginForm.$invalid">Sign in</button>
+            </form><!-- /form -->
+            <a href="#" class="forgot-password">
+                Forgot the password?
+            </a>
+        </div><!-- /card-container -->
+    </div><!-- /contain
