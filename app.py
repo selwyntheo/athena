@@ -37,6 +37,7 @@ handler.setFormatter(formatter)
 logger.addHandler(handler)
 
 
+
 @app.route('/views/<path:filename>')
 def getView(filename):
 	return app.send_static_file('views/' + filename)
@@ -44,6 +45,10 @@ def getView(filename):
 @app.route('/js/<path:filename>')
 def getJsFile(filename):
 	return app.send_static_file('js/' + filename)
+
+@app.route('/fonts/<path:filename>')
+def getFontsFile(filename):
+    return app.send_static_file('fonts/' + filename)
 
 @app.route('/css/<path:filename>')
 def getCssFile(filename):
@@ -97,6 +102,7 @@ def logout():
 
 
 @app.route('/quiz', methods=['GET'])
+
 def quiz():
     with open('quiz1.json') as f:
         data = json.load(f)

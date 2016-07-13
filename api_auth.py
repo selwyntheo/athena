@@ -17,7 +17,7 @@ def auth_required(f):
         if 'username' in request.cookies:
             username = request.cookies.get("username")
         if token is None or username is None or not (AuthStore().get_token(username) == token):
-            return send_from_directory('.', 'login.html')
+            return send_from_directory('./static/views', 'login.html')
         return f(*args, **kwargs)
     return decorated
 

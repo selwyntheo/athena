@@ -36,6 +36,11 @@ config(['$routeProvider', '$locationProvider', '$httpProvider', '$compileProvide
     controller: 'LoginCtrl',
     controllerAs: 'loginCtrl'
   })
+  .when('/signup', {
+    templateUrl: 'views/signup.html',
+    controller: 'SignupCtrl',
+    controllerAs: 'signupCtrl'
+  })
   .otherwise({
   	redirectTo:'/'
   });

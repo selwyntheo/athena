@@ -7,8 +7,6 @@
 
 	function ProgressCtrl($scope, $http, $q) {
 		$scope.message = 'Some String'
-	}
-	
 		$(document).ready(function () {
 	    //Initialize tooltips
 	    $('.nav-tabs > li a[title]').tooltip();
@@ -44,4 +42,7 @@
 	function prevTab(elem) {
 	    $(elem).prev().find('a[data-toggle="tab"]').click();
 	}
+	}
+
+		
 })();
